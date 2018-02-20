@@ -13,6 +13,8 @@ Konwencja nazewnictwa powinna być traktowana jak prawo. Stosowanie się do usta
 
 Większość typów assetów posiada prefiks, zwykle będący skrótem odpowiadającego typu assetu zakończony podkreślnikiem.
 
+Wszystkie nazwy powinny być tworzone w języku angielskim. Wyjątek mogą stanowić nazwy własne i imiona w językach narodowych. Ich pisowania powinna być pozbawiona jakichkolwiek znaków diakrytycznych – bez wyjątku.
+
 <a name="base-asset-name"></a>
 <a name="1.1"></a>
 ### 1.1 Bazowa Nazwa Assetu - `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks` ![#]
@@ -35,23 +37,23 @@ W zależności od tego jak przygotowywane są assety dopuszczalne jest łączeni
 <a name="1.1-examples"></a>
 #### 1.1 Examples
 
-##### 1.1e1 Bob
+##### 1.1e1 Robcio
 
 | Asset Type              | Asset Name                                                 |
 | ----------------------- | ---------------------------------------------------------- |
-| Skeletal Mesh           | SK_Bob                                                     |
-| Material                | M_Bob                                                      |
-| Texture (Diffuse/Albedo)| T_Bob_D                                                    |
-| Texture (Normal)        | T_Bob_N                                                    |
-| Texture (Evil Diffuse)  | T_Bob_Evil_D                                               |
+| Skeletal Mesh           | SK_Robcio                                                  |
+| Material                | M_Robcio                                                   |
+| Texture (Diffuse/Albedo)| T_Robcio_D                                                 |
+| Texture (Normal)        | T_Robcio_N                                                 |
+| Texture (Evil Diffuse)  | T_Robcio_Evil_D                                            |
 
 ##### 1.1e2 Rocks
 
 | Asset Type              | Asset Name                                                 |
 | ----------------------- | ---------------------------------------------------------- |
-| Static Mesh (01)        | S_Rock_01                                                  |
-| Static Mesh (02)        | S_Rock_02                                                  |
-| Static Mesh (03)        | S_Rock_03                                                  |
+| Static Mesh (01)        | SM_Rock_01                                                 |
+| Static Mesh (02)        | SM_Rock_02                                                 |
+| Static Mesh (03)        | SM_Rock_03                                                 |
 | Material                | M_Rock                                                     |
 | Material Instance (Snow)| MI_Rock_Snow                                               |
 
