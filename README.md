@@ -7,7 +7,7 @@
 
 <a name="anc"></a>
 <a name="1"></a>
-## 1. Konwencja nazewnictwa assetów ![#](https://img.shields.io/badge/lint-partial_support-yellow.svg)
+## 1. Konwencja nazewnictwa assetów ![#]
 
 Konwencja nazewnictwa powinna być traktowana jak prawo. Stosowanie się do ustalonych zasad pozwala z łatwością zarządzać, wyszukiwać i przetwarzać assety.
 
@@ -15,7 +15,7 @@ Większość typów assetów posiada prefiks, zwykle będący skrótem odpowiada
 
 <a name="base-asset-name"></a>
 <a name="1.1"></a>
-### 1.1 Bazowa Nazwa Assetu - `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks` ![#](https://img.shields.io/badge/lint-partial_support-yellow.svg)
+### 1.1 Bazowa Nazwa Assetu - `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks` ![#]
 
 Wszystkie assety powinny mieć _Bazową Nazwę Assetu_. Podstawowa Nazwa Assetu przedstawia logiczną kategoryzację powiązanych ze sobą assetów. Każdy asset przynależący do takiej logicznej grupy powinien stosować się do schematu  `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks`.
 
@@ -57,7 +57,7 @@ W zależności od tego jak przygotowywane są assety dopuszczalne jest łączeni
 
 <a name="asset-name-modifiers"></a>
 <a name="1.2"></a>
-### 1.2 Asset Name Modifiers ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2 Asset Name Modifiers ![#]
 
 When naming an asset use these tables to determine the prefix and suffix to use with an asset's [Base Asset Name](#base-asset-name).
 
@@ -89,7 +89,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-common"></a>
 <a name="1.2.1"></a>
-#### 1.2.1 Most Common ![#](https://img.shields.io/badge/lint-supported-green.svg)
+#### 1.2.1 Most Common ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -109,7 +109,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
-#### 1.2.2 Animations ![#](https://img.shields.io/badge/lint-supported-green.svg)
+#### 1.2.2 Animations ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -130,7 +130,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-ai"></a>
 <a name="1.2.3"></a>
-### 1.2.3 Artificial Intelligence ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.3 Artificial Intelligence ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -143,7 +143,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-bp"></a>
 <a name="1.2.4"></a>
-### 1.2.4 Blueprints ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.4 Blueprints ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -159,7 +159,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
-### 1.2.5 Materials ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.5 Materials ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -173,7 +173,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-textures"></a>
 <a name="1.2.6"></a>
-### 1.2.6 Textures ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.6 Textures ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -196,7 +196,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 <a name="anc-textures-packing"></a>
 <a name="1.2.6.1"></a>
-#### 1.2.6.1 Texture Packing ![#](https://img.shields.io/badge/lint-unsupported-red.svg)
+#### 1.2.6.1 Texture Packing ![#]
 It is common practice to pack multiple layers of texture data into one texture. An example of this is packing Emissive, Roughness, Ambient Occlusion together as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. `_ERO`.
 
 > It is generally acceptable to include an Alpha/Opacity layer in your Diffuse/Albedo's alpha channel and as this is common practice, adding `A` to the `_D` suffix is optional.
@@ -205,7 +205,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 <a name="anc-misc"></a>
 <a name="1.2.7"></a>
-### 1.2.7 Miscellaneous ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.7 Miscellaneous ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -231,7 +231,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 <a name="anc-paper2d"></a>
 <a name="1.2.8"></a>
-### 1.2.8 Paper 2D ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.8 Paper 2D ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -243,7 +243,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 <a name="anc-physics"></a>
 <a name="1.2.9"></a>
-### 1.2.9 Physics ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.9 Physics ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -253,7 +253,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 <a name="anc-sounds"></a>
 <a name="1.2.10"></a>
-### 1.2.10 Sounds ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.10 Sounds ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
@@ -270,7 +270,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 <a name="anc-ui"></a>
 <a name="1.2.11"></a>
-### 1.2.11 User Interface ![#](https://img.shields.io/badge/lint-supported-green.svg)
+### 1.2.11 User Interface ![#]
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
