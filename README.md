@@ -31,10 +31,10 @@ Dla wyjątkowych i szczególnych wariacji assetów, `Wariant` to krótkie i rozp
 
 Dla unikalnych wariacji w granicach tego samego rodzaju `Wariant` stanowi dwycyfrowa liczba poczynając od `01`. Przykładowo, jeśli artysta przygotowuje skały nie posiadające cech wyróżniających w obrębie gatunku, powinny one być nazwane: `Rock_01`, `Rock_02`, `Rock_03`, etc. Oprócz szczególnych sytuacji nie powinno być potrzeby stosowania trzycyfrowej liczby. Jeśli liczba numerowanych wariantów przekracza 100, warto rozważyć wprowadzenie nowej nazwy bazowej lub stosowanie dodatkowego wariantu w nazwie.
 
-W zależności od tego jak przygotowywane są assety dopuszczalne jest łączenie wariantów w łańcuch. Przykładowo, assety podłóg w wizualizacji architektonicznej mogłyby dzielić współną nazwę bazową `Flooring` wraz z łańcuchem wariantów takim jak `Flooring_Marble_01`, `Flooring_Maple_01`, `Flooring_Tile_Squares_01.
+W zależności od tego jak przygotowywane są assety dopuszczalne jest łączenie wariantów w łańcuch. Przykładowo, assety podłóg w wizualizacji architektonicznej mogłyby dzielić współną nazwę bazową `Flooring` wraz z łańcuchem wariantów takim jak `Flooring_Marble_01`, `Flooring_Maple_01`, `Flooring_Tile_Squares_01`.
 
 <a name="1.1-examples"></a>
-#### 1.1 Examples
+#### 1.1 Przykłady
 
 ##### 1.1e1 Robcio
 
