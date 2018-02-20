@@ -19,16 +19,15 @@ Wszystkie nazwy powinny być tworzone w języku angielskim. Wyjątek mogą stano
 <a name="1.1"></a>
 ### 1.1 Bazowa Nazwa Assetu - `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks`
 
-Wszystkie assety powinny mieć _Bazową Nazwę Assetu_. Podstawowa Nazwa Assetu przedstawia logiczną kategoryzację powiązanych ze sobą assetów. Każdy asset przynależący do takiej logicznej grupy powinien stosować się do schematu  `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks`.
+Wszystkie assety powinny mieć _Bazową Nazwę Assetu_. Bazowa Nazwa Assetu przedstawia logiczną kategoryzację powiązanych ze sobą assetów. Każdy asset przynależący do takiej logicznej grupy powinien stosować się do schematu  `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks`.
 
 Zwykle wystarczy stosować schemat `Prefiks_BazowaNazwaAssetu_Wariant_Sufiks`, który w parze ze zdrowym rozsądkiem gwarantuje użyteczne nazewnictwo.
 
 `Prefiks` i `Sufks` zależą od typu assetu, są zdefiniowane w tabeli [Asset Name Modifier](#asset-name-modifiers).
 
-`BazowaNazwaAssetu` powinna być określona w zwięzły i wymowny sposób słowem/frazą powiązaną z tą grupą assetów. Dla przykładu, mając postać nazywającą się Robcio, należałoby wszystkim assetom Robcia nadać `PodstawowąNazwęAssetu` `Robcio`.
+`BazowaNazwaAssetu` powinna być określona w zwięzły i wymowny sposób słowem/frazą powiązaną z tą grupą assetów. Dla przykładu, mając postać nazywającą się Robcio, należałoby wszystkim assetom Robcia nadać `BazowąNazwęAssetu` `Robcio`.
 
-Dla wyjątkowych i szczególnych wariacji assetów, `Wariant` to krótkie i rozpoznawalne słowo/fraza określająca logiczny podział assetów stanowiących podzbiór assetów
-For unique and specific variations of assets, `Variant` is either a short and easily recognizable name that represents logical grouping of assets that are a subset of an asset's base name. Przykładowo, gdyby Robcio miał kilka skórek, każda z tych skórek również powinna używać frazy `Robcio` jako `BazowąNazwęAssetu`, jednocześnie dodając rozpoznawalną frazę dla określenia konkretnego `Wariantu`. Ponura wersja skórki Robcia mogłaby więc nazywać się `Robcio_Grim`, w wersja retro - `Robcio_Retro`.
+Dla wyjątkowych i szczególnych wariacji assetów, `Wariant` to krótkie i rozpoznawalne słowo/fraza określające logiczny podział assetów stanowiących podzbiór assetów określonych przez nazwę bazową. Przykładowo, gdyby Robcio miał kilka skórek, każda z tych skórek również powinna używać frazy `Robcio` jako `BazowąNazwęAssetu`, jednocześnie dodając rozpoznawalną frazę dla określenia konkretnego `Wariantu`. Ponura wersja skórki Robcia mogłaby więc nazywać się `Robcio_Grim`, a wersja retro - `Robcio_Retro`.
 
 Dla unikalnych wariacji w granicach tego samego rodzaju `Wariant` stanowi dwycyfrowa liczba poczynając od `01`. Przykładowo, jeśli artysta przygotowuje skały nie posiadające cech wyróżniających w obrębie gatunku, powinny one być nazwane: `Rock_01`, `Rock_02`, `Rock_03`, etc. Oprócz szczególnych sytuacji nie powinno być potrzeby stosowania trzycyfrowej liczby. Jeśli liczba numerowanych wariantów przekracza 100, warto rozważyć wprowadzenie nowej nazwy bazowej lub stosowanie dodatkowego wariantu w nazwie.
 
@@ -39,7 +38,7 @@ W zależności od tego jak przygotowywane są assety dopuszczalne jest łączeni
 
 ##### 1.1e1 Robcio
 
-| Asset Type              | Asset Name                                                 |
+| Typ Assetu              | Nazwa Assetu                                               |
 | ----------------------- | ---------------------------------------------------------- |
 | Skeletal Mesh           | SK_Robcio                                                  |
 | Material                | M_Robcio                                                   |
@@ -49,7 +48,7 @@ W zależności od tego jak przygotowywane są assety dopuszczalne jest łączeni
 
 ##### 1.1e2 Rocks
 
-| Asset Type              | Asset Name                                                 |
+| Typ Assetu              | Nazwa Assetu                                               |
 | ----------------------- | ---------------------------------------------------------- |
 | Static Mesh (01)        | SM_Rock_01                                                 |
 | Static Mesh (02)        | SM_Rock_02                                                 |
@@ -59,11 +58,11 @@ W zależności od tego jak przygotowywane są assety dopuszczalne jest łączeni
 
 <a name="asset-name-modifiers"></a>
 <a name="1.2"></a>
-### 1.2 Asset Name Modifiers
+### 1.2 Modyfikatory nazwy assetu
 
-When naming an asset use these tables to determine the prefix and suffix to use with an asset's [Base Asset Name](#base-asset-name).
+Nazywając asset należy stosować się do prefiksów i sufiksów wymienionych w poniższych tablicach.
 
-#### Sections
+#### Sekcje
 
 > 1.2.1 [Most Common](#anc-common)
 
@@ -103,7 +102,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Level (Gameplay)        |            | _Gameplay  |                                  |
 | Blueprint               | BP_        |            |                                  |
 | Material                | M_         |            |                                  |
-| Static Mesh             | S_         |            | Many use SM_. We use S_.         |
+| Static Mesh             | SM_        |            |                                  |
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
