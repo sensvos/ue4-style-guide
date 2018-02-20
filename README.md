@@ -168,6 +168,7 @@ Nazywając asset należy stosować się do prefiksów i sufiksów wymienionych w
 | Material (Post Process) | PP_        |            |                                  |
 | Material Function       | MF_        |            |                                  |
 | Material Instance       | MI_        |            |                                  |
+| Material Instance (Post Process) | PPI_        |            |                                  |
 | Material Parameter Collection | MPC_ |            |                                  |
 | Subsurface Profile      | SP_        |            |                                  |
 | Physical Materials      | PM_        |            |                                  |
