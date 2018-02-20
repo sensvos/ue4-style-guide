@@ -1,9 +1,9 @@
 <a name="toc"></a>
-## Table of Contents
+## Spis Treści
 
-> 1. [Asset Naming Conventions](#anc)
-> 1. [Directory Structure](#structure)
-> 1. [Blueprints](#bp)
+> 1. [Konwencja Nazewnictwa Assetów](#anc)
+> 1. [Struktura folderów](#structure)
+> 1. [Blueprinty](#bp)
 
 <a name="anc"></a>
 <a name="1"></a>
